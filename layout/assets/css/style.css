@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+form {
+    display: inline;
+}
+
+input[type="submit"] {
+    padding: 6px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+input[type="submit"][name="hapus"] {
+    background-color: #f44336;
+}
+input[type="submit"][name="tambah"] {
+    padding: 10px 185px;
+    background-color: #2196F3;
+}
+input[type="submit"][name="update"] {
+    padding: 10px 205px;
+}
+input[type="text"],
+textarea {
+    width: 450px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+hr {
+    border: none;
+    height: 5px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
